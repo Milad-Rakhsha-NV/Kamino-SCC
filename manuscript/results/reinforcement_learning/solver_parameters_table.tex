@@ -1,0 +1,44 @@
+\begin{table*}[t]
+\centering
+\caption{Solver settings for the reward curves in \Cref{fig:rl-all-environments}. The
+substep count is the number of physics solves per simulation step. MJWarp uses
+its native solver configuration and therefore has no corresponding SCC
+contact-iteration, coupling, or final bilateral-correction settings. The
+APGD and P-SPG-FB rows use the same substep count as the matched Jacobi row.}
+\label{tab:rl-solver-parameters}
+\small
+\begin{tabular}{llrrrr}
+\toprule
+Environment & Solver & Substeps & Contact iters. & Coupling & Final corr. \\
+\midrule
+Ant & Jacobi & 1 & 10 & 1 & yes \\
+Ant & APGD & 1 & 10 & 1 & yes \\
+Ant & P-SPG-FB & 1 & 10 & 1 & yes \\
+Ant & MJWarp & 1 & -- & -- & -- \\
+Humanoid direct & Jacobi & 2 & 10 & 1 & yes \\
+Humanoid direct & APGD & 2 & 10 & 1 & yes \\
+Humanoid direct & P-SPG-FB & 2 & 10 & 1 & yes \\
+Humanoid direct & MJWarp & 2 & -- & -- & -- \\
+H1 & Jacobi & 1 & 10 & 1 & no \\
+H1 & APGD & 1 & 10 & 1 & no \\
+H1 & P-SPG-FB & 1 & 10 & 1 & no \\
+H1 & MJWarp & 1 & -- & -- & -- \\
+G1 & Jacobi & 1 & 15 & 2 & no \\
+G1 & APGD & 1 & 15 & 2 & no \\
+G1 & P-SPG-FB & 1 & 15 & 2 & no \\
+G1 & MJWarp & 1 & -- & -- & -- \\
+Go2 & Jacobi & 1 & 15 & 2 & no \\
+Go2 & APGD & 1 & 15 & 2 & no \\
+Go2 & P-SPG-FB & 1 & 15 & 2 & no \\
+Go2 & MJWarp & 1 & -- & -- & -- \\
+ANYmal C & Jacobi & 1 & 20 & 2 & no \\
+ANYmal C & APGD & 1 & 20 & 2 & no \\
+ANYmal C & P-SPG-FB & 1 & 20 & 2 & no \\
+ANYmal C & MJWarp & 1 & -- & -- & -- \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+% All SCC rows use sparse LDL for bilateral joints and cache_factorization=true.
+% P-SPG-FB rows change only the contact solver relative to their APGD counterparts.
+% Anymal C uses the manager-based flat task; its solver rows are matched.

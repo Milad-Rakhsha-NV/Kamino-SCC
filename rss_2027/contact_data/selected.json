@@ -1,0 +1,782 @@
+{
+  "stack5_unwelded": {
+    "frozen": {
+      "case": "stack5_unwelded",
+      "mode": "frozen_256",
+      "cap": 256,
+      "contacts": 20,
+      "correction_period": 256,
+      "median_ms": 7.512320041656494,
+      "worst_residual": 6.435476062515111e-06,
+      "worst_velocity_error_mps": 1.070720607954101e-06,
+      "max_accepted_steps": 98,
+      "passed": true,
+      "time_ms": [
+        7.494815826416016,
+        7.627359867095947,
+        7.512320041656494,
+        7.635519981384277,
+        7.505184173583984,
+        7.64137601852417,
+        7.4964799880981445
+      ],
+      "scores": [
+        {
+          "case": "stack5_unwelded",
+          "r": 6.435476062515111e-06,
+          "velocity_error": 1.070720607954101e-06,
+          "steps": 98,
+          "rejected": 1,
+          "failed": 0,
+          "native_r": 7.19442085790361e-06
+        },
+        {
+          "case": "stack5_unwelded",
+          "r": 6.435476062515111e-06,
+          "velocity_error": 1.070720607954101e-06,
+          "steps": 98,
+          "rejected": 1,
+          "failed": 0,
+          "native_r": 7.19442085790361e-06
+        },
+        {
+          "case": "stack5_unwelded",
+          "r": 6.435476062515111e-06,
+          "velocity_error": 1.070720607954101e-06,
+          "steps": 98,
+          "rejected": 1,
+          "failed": 0,
+          "native_r": 7.19442085790361e-06
+        },
+        {
+          "case": "stack5_unwelded",
+          "r": 6.435476062515111e-06,
+          "velocity_error": 1.070720607954101e-06,
+          "steps": 98,
+          "rejected": 1,
+          "failed": 0,
+          "native_r": 7.19442085790361e-06
+        },
+        {
+          "case": "stack5_unwelded",
+          "r": 6.435476062515111e-06,
+          "velocity_error": 1.070720607954101e-06,
+          "steps": 98,
+          "rejected": 1,
+          "failed": 0,
+          "native_r": 7.19442085790361e-06
+        },
+        {
+          "case": "stack5_unwelded",
+          "r": 6.435476062515111e-06,
+          "velocity_error": 1.070720607954101e-06,
+          "steps": 98,
+          "rejected": 1,
+          "failed": 0,
+          "native_r": 7.19442085790361e-06
+        },
+        {
+          "case": "stack5_unwelded",
+          "r": 6.435476062515111e-06,
+          "velocity_error": 1.070720607954101e-06,
+          "steps": 98,
+          "rejected": 1,
+          "failed": 0,
+          "native_r": 7.19442085790361e-06
+        }
+      ]
+    },
+    "lagged_control": {
+      "case": "stack5_unwelded",
+      "mode": "lagged_control",
+      "cap": 1024,
+      "contacts": 20,
+      "correction_period": 1,
+      "median_ms": 8.686559677124023,
+      "worst_residual": 6.75635130352081e-06,
+      "worst_velocity_error_mps": 1.0832093169654833e-06,
+      "max_accepted_steps": 103,
+      "passed": true,
+      "time_ms": [
+        8.530431747436523,
+        8.801183700561523,
+        8.543264389038086,
+        8.896608352661133,
+        8.546943664550781,
+        8.705984115600586,
+        8.686559677124023
+      ],
+      "scores": [
+        {
+          "case": "stack5_unwelded",
+          "r": 6.75635130352081e-06,
+          "velocity_error": 1.0832093169654833e-06,
+          "steps": 103,
+          "rejected": 2,
+          "failed": 0,
+          "native_r": 6.754277572171073e-06
+        },
+        {
+          "case": "stack5_unwelded",
+          "r": 6.75635130352081e-06,
+          "velocity_error": 1.0832093169654833e-06,
+          "steps": 103,
+          "rejected": 2,
+          "failed": 0,
+          "native_r": 6.754277572171073e-06
+        },
+        {
+          "case": "stack5_unwelded",
+          "r": 6.75635130352081e-06,
+          "velocity_error": 1.0832093169654833e-06,
+          "steps": 103,
+          "rejected": 2,
+          "failed": 0,
+          "native_r": 6.754277572171073e-06
+        },
+        {
+          "case": "stack5_unwelded",
+          "r": 6.75635130352081e-06,
+          "velocity_error": 1.0832093169654833e-06,
+          "steps": 103,
+          "rejected": 2,
+          "failed": 0,
+          "native_r": 6.754277572171073e-06
+        },
+        {
+          "case": "stack5_unwelded",
+          "r": 6.75635130352081e-06,
+          "velocity_error": 1.0832093169654833e-06,
+          "steps": 103,
+          "rejected": 2,
+          "failed": 0,
+          "native_r": 6.754277572171073e-06
+        },
+        {
+          "case": "stack5_unwelded",
+          "r": 6.75635130352081e-06,
+          "velocity_error": 1.0832093169654833e-06,
+          "steps": 103,
+          "rejected": 2,
+          "failed": 0,
+          "native_r": 6.754277572171073e-06
+        },
+        {
+          "case": "stack5_unwelded",
+          "r": 6.75635130352081e-06,
+          "velocity_error": 1.0832093169654833e-06,
+          "steps": 103,
+          "rejected": 2,
+          "failed": 0,
+          "native_r": 6.754277572171073e-06
+        }
+      ]
+    },
+    "extrapolated": {
+      "case": "stack5_unwelded",
+      "mode": "extrapolated",
+      "cap": 512,
+      "contacts": 20,
+      "correction_period": 1,
+      "median_ms": 6.412896156311035,
+      "worst_residual": 6.197072201472464e-06,
+      "worst_velocity_error_mps": 9.857595484330517e-07,
+      "max_accepted_steps": 79,
+      "passed": true,
+      "time_ms": [
+        6.640927791595459,
+        6.412896156311035,
+        6.408351898193359,
+        6.656288146972656,
+        6.404384136199951,
+        6.653151988983154,
+        6.399328231811523
+      ],
+      "scores": [
+        {
+          "case": "stack5_unwelded",
+          "r": 6.197072201472464e-06,
+          "velocity_error": 9.857595484330517e-07,
+          "steps": 79,
+          "rejected": 1,
+          "failed": 0,
+          "native_r": 6.474383359029818e-06
+        },
+        {
+          "case": "stack5_unwelded",
+          "r": 6.197072201472464e-06,
+          "velocity_error": 9.857595484330517e-07,
+          "steps": 79,
+          "rejected": 1,
+          "failed": 0,
+          "native_r": 6.474383359029818e-06
+        },
+        {
+          "case": "stack5_unwelded",
+          "r": 6.197072201472464e-06,
+          "velocity_error": 9.857595484330517e-07,
+          "steps": 79,
+          "rejected": 1,
+          "failed": 0,
+          "native_r": 6.474383359029818e-06
+        },
+        {
+          "case": "stack5_unwelded",
+          "r": 6.197072201472464e-06,
+          "velocity_error": 9.857595484330517e-07,
+          "steps": 79,
+          "rejected": 1,
+          "failed": 0,
+          "native_r": 6.474383359029818e-06
+        },
+        {
+          "case": "stack5_unwelded",
+          "r": 6.197072201472464e-06,
+          "velocity_error": 9.857595484330517e-07,
+          "steps": 79,
+          "rejected": 1,
+          "failed": 0,
+          "native_r": 6.474383359029818e-06
+        },
+        {
+          "case": "stack5_unwelded",
+          "r": 6.197072201472464e-06,
+          "velocity_error": 9.857595484330517e-07,
+          "steps": 79,
+          "rejected": 1,
+          "failed": 0,
+          "native_r": 6.474383359029818e-06
+        },
+        {
+          "case": "stack5_unwelded",
+          "r": 6.197072201472464e-06,
+          "velocity_error": 9.857595484330517e-07,
+          "steps": 79,
+          "rejected": 1,
+          "failed": 0,
+          "native_r": 6.474383359029818e-06
+        }
+      ]
+    }
+  },
+  "stack10_unwelded": {
+    "frozen": {
+      "case": "stack10_unwelded",
+      "mode": "frozen_256",
+      "cap": 4096,
+      "contacts": 40,
+      "correction_period": 256,
+      "median_ms": 24.59974479675293,
+      "worst_residual": 6.566953772647745e-06,
+      "worst_velocity_error_mps": 1.115295858333809e-06,
+      "max_accepted_steps": 193,
+      "passed": true,
+      "time_ms": [
+        24.59974479675293,
+        24.644575119018555,
+        24.47884750366211,
+        24.617408752441406,
+        24.486175537109375,
+        24.82249641418457,
+        24.467775344848633
+      ],
+      "scores": [
+        {
+          "case": "stack10_unwelded",
+          "r": 6.566953772647745e-06,
+          "velocity_error": 1.115295858333809e-06,
+          "steps": 193,
+          "rejected": 1,
+          "failed": 0,
+          "native_r": 6.554368133524957e-06
+        },
+        {
+          "case": "stack10_unwelded",
+          "r": 6.566953772647745e-06,
+          "velocity_error": 1.115295858333809e-06,
+          "steps": 193,
+          "rejected": 1,
+          "failed": 0,
+          "native_r": 6.554368133524957e-06
+        },
+        {
+          "case": "stack10_unwelded",
+          "r": 6.566953772647745e-06,
+          "velocity_error": 1.115295858333809e-06,
+          "steps": 193,
+          "rejected": 1,
+          "failed": 0,
+          "native_r": 6.554368133524957e-06
+        },
+        {
+          "case": "stack10_unwelded",
+          "r": 6.566953772647745e-06,
+          "velocity_error": 1.115295858333809e-06,
+          "steps": 193,
+          "rejected": 1,
+          "failed": 0,
+          "native_r": 6.554368133524957e-06
+        },
+        {
+          "case": "stack10_unwelded",
+          "r": 6.566953772647745e-06,
+          "velocity_error": 1.115295858333809e-06,
+          "steps": 193,
+          "rejected": 1,
+          "failed": 0,
+          "native_r": 6.554368133524957e-06
+        },
+        {
+          "case": "stack10_unwelded",
+          "r": 6.566953772647745e-06,
+          "velocity_error": 1.115295858333809e-06,
+          "steps": 193,
+          "rejected": 1,
+          "failed": 0,
+          "native_r": 6.554368133524957e-06
+        },
+        {
+          "case": "stack10_unwelded",
+          "r": 6.566953772647745e-06,
+          "velocity_error": 1.115295858333809e-06,
+          "steps": 193,
+          "rejected": 1,
+          "failed": 0,
+          "native_r": 6.554368133524957e-06
+        }
+      ]
+    },
+    "lagged_control": {
+      "case": "stack10_unwelded",
+      "mode": "lagged_control",
+      "cap": 512,
+      "contacts": 40,
+      "correction_period": 1,
+      "median_ms": 27.160959243774414,
+      "worst_residual": 7.295218484350312e-06,
+      "worst_velocity_error_mps": 1.223112024550943e-06,
+      "max_accepted_steps": 193,
+      "passed": true,
+      "time_ms": [
+        26.821407318115234,
+        27.214879989624023,
+        27.074783325195312,
+        26.983423233032227,
+        27.32655906677246,
+        27.160959243774414,
+        27.164703369140625
+      ],
+      "scores": [
+        {
+          "case": "stack10_unwelded",
+          "r": 7.295218484350312e-06,
+          "velocity_error": 1.223112024550943e-06,
+          "steps": 193,
+          "rejected": 1,
+          "failed": 0,
+          "native_r": 7.221646595707829e-06
+        },
+        {
+          "case": "stack10_unwelded",
+          "r": 7.295218484350312e-06,
+          "velocity_error": 1.223112024550943e-06,
+          "steps": 193,
+          "rejected": 1,
+          "failed": 0,
+          "native_r": 7.221646595707829e-06
+        },
+        {
+          "case": "stack10_unwelded",
+          "r": 7.295218484350312e-06,
+          "velocity_error": 1.223112024550943e-06,
+          "steps": 193,
+          "rejected": 1,
+          "failed": 0,
+          "native_r": 7.221646595707829e-06
+        },
+        {
+          "case": "stack10_unwelded",
+          "r": 7.295218484350312e-06,
+          "velocity_error": 1.223112024550943e-06,
+          "steps": 193,
+          "rejected": 1,
+          "failed": 0,
+          "native_r": 7.221646595707829e-06
+        },
+        {
+          "case": "stack10_unwelded",
+          "r": 7.295218484350312e-06,
+          "velocity_error": 1.223112024550943e-06,
+          "steps": 193,
+          "rejected": 1,
+          "failed": 0,
+          "native_r": 7.221646595707829e-06
+        },
+        {
+          "case": "stack10_unwelded",
+          "r": 7.295218484350312e-06,
+          "velocity_error": 1.223112024550943e-06,
+          "steps": 193,
+          "rejected": 1,
+          "failed": 0,
+          "native_r": 7.221646595707829e-06
+        },
+        {
+          "case": "stack10_unwelded",
+          "r": 7.295218484350312e-06,
+          "velocity_error": 1.223112024550943e-06,
+          "steps": 193,
+          "rejected": 1,
+          "failed": 0,
+          "native_r": 7.221646595707829e-06
+        }
+      ]
+    },
+    "extrapolated": {
+      "case": "stack10_unwelded",
+      "mode": "extrapolated",
+      "cap": 256,
+      "contacts": 40,
+      "correction_period": 1,
+      "median_ms": 26.691904067993164,
+      "worst_residual": 6.741106683055067e-06,
+      "worst_velocity_error_mps": 1.1570879283606672e-06,
+      "max_accepted_steps": 196,
+      "passed": true,
+      "time_ms": [
+        26.69161605834961,
+        26.821216583251953,
+        26.691904067993164,
+        26.550783157348633,
+        26.902912139892578,
+        26.743423461914062,
+        26.537952423095703
+      ],
+      "scores": [
+        {
+          "case": "stack10_unwelded",
+          "r": 6.741106683055067e-06,
+          "velocity_error": 1.1570879283606672e-06,
+          "steps": 196,
+          "rejected": 1,
+          "failed": 0,
+          "native_r": 6.779496580839729e-06
+        },
+        {
+          "case": "stack10_unwelded",
+          "r": 6.741106683055067e-06,
+          "velocity_error": 1.1570879283606672e-06,
+          "steps": 196,
+          "rejected": 1,
+          "failed": 0,
+          "native_r": 6.779496580839729e-06
+        },
+        {
+          "case": "stack10_unwelded",
+          "r": 6.741106683055067e-06,
+          "velocity_error": 1.1570879283606672e-06,
+          "steps": 196,
+          "rejected": 1,
+          "failed": 0,
+          "native_r": 6.779496580839729e-06
+        },
+        {
+          "case": "stack10_unwelded",
+          "r": 6.741106683055067e-06,
+          "velocity_error": 1.1570879283606672e-06,
+          "steps": 196,
+          "rejected": 1,
+          "failed": 0,
+          "native_r": 6.779496580839729e-06
+        },
+        {
+          "case": "stack10_unwelded",
+          "r": 6.741106683055067e-06,
+          "velocity_error": 1.1570879283606672e-06,
+          "steps": 196,
+          "rejected": 1,
+          "failed": 0,
+          "native_r": 6.779496580839729e-06
+        },
+        {
+          "case": "stack10_unwelded",
+          "r": 6.741106683055067e-06,
+          "velocity_error": 1.1570879283606672e-06,
+          "steps": 196,
+          "rejected": 1,
+          "failed": 0,
+          "native_r": 6.779496580839729e-06
+        },
+        {
+          "case": "stack10_unwelded",
+          "r": 6.741106683055067e-06,
+          "velocity_error": 1.1570879283606672e-06,
+          "steps": 196,
+          "rejected": 1,
+          "failed": 0,
+          "native_r": 6.779496580839729e-06
+        }
+      ]
+    }
+  },
+  "face_v10_mu4": {
+    "frozen": {
+      "case": "face_v10_mu4",
+      "mode": "frozen_1",
+      "cap": 512,
+      "contacts": 4,
+      "correction_period": 1,
+      "median_ms": 12.678943634033203,
+      "worst_residual": 7.266539313012186e-06,
+      "worst_velocity_error_mps": 1.3642834794325154e-05,
+      "max_accepted_steps": 189,
+      "passed": true,
+      "time_ms": [
+        12.660223960876465,
+        12.825504302978516,
+        12.678943634033203,
+        12.62992000579834,
+        12.680831909179688,
+        12.657759666442871,
+        12.830816268920898
+      ],
+      "scores": [
+        {
+          "case": "face_v10_mu4",
+          "r": 7.266539313012186e-06,
+          "velocity_error": 1.3642834794325154e-05,
+          "steps": 189,
+          "rejected": 0,
+          "failed": 0,
+          "native_r": 7.277364966841215e-06
+        },
+        {
+          "case": "face_v10_mu4",
+          "r": 7.266539313012186e-06,
+          "velocity_error": 1.3642834794325154e-05,
+          "steps": 189,
+          "rejected": 0,
+          "failed": 0,
+          "native_r": 7.277364966841215e-06
+        },
+        {
+          "case": "face_v10_mu4",
+          "r": 7.266539313012186e-06,
+          "velocity_error": 1.3642834794325154e-05,
+          "steps": 189,
+          "rejected": 0,
+          "failed": 0,
+          "native_r": 7.277364966841215e-06
+        },
+        {
+          "case": "face_v10_mu4",
+          "r": 7.266539313012186e-06,
+          "velocity_error": 1.3642834794325154e-05,
+          "steps": 189,
+          "rejected": 0,
+          "failed": 0,
+          "native_r": 7.277364966841215e-06
+        },
+        {
+          "case": "face_v10_mu4",
+          "r": 7.266539313012186e-06,
+          "velocity_error": 1.3642834794325154e-05,
+          "steps": 189,
+          "rejected": 0,
+          "failed": 0,
+          "native_r": 7.277364966841215e-06
+        },
+        {
+          "case": "face_v10_mu4",
+          "r": 7.266539313012186e-06,
+          "velocity_error": 1.3642834794325154e-05,
+          "steps": 189,
+          "rejected": 0,
+          "failed": 0,
+          "native_r": 7.277364966841215e-06
+        },
+        {
+          "case": "face_v10_mu4",
+          "r": 7.266539313012186e-06,
+          "velocity_error": 1.3642834794325154e-05,
+          "steps": 189,
+          "rejected": 0,
+          "failed": 0,
+          "native_r": 7.277364966841215e-06
+        }
+      ]
+    },
+    "lagged_control": {
+      "case": "face_v10_mu4",
+      "mode": "lagged_control",
+      "cap": 512,
+      "contacts": 4,
+      "correction_period": 1,
+      "median_ms": 7.232895851135254,
+      "worst_residual": 7.47776210524219e-06,
+      "worst_velocity_error_mps": 1.974842946683708e-05,
+      "max_accepted_steps": 186,
+      "passed": true,
+      "time_ms": [
+        7.0808000564575195,
+        7.272863864898682,
+        7.076735973358154,
+        7.29088020324707,
+        7.0767998695373535,
+        7.284448146820068,
+        7.232895851135254
+      ],
+      "scores": [
+        {
+          "case": "face_v10_mu4",
+          "r": 7.47776210524219e-06,
+          "velocity_error": 1.974842946683708e-05,
+          "steps": 186,
+          "rejected": 1,
+          "failed": 0,
+          "native_r": 7.457166089523592e-06
+        },
+        {
+          "case": "face_v10_mu4",
+          "r": 7.47776210524219e-06,
+          "velocity_error": 1.974842946683708e-05,
+          "steps": 186,
+          "rejected": 1,
+          "failed": 0,
+          "native_r": 7.457166089523592e-06
+        },
+        {
+          "case": "face_v10_mu4",
+          "r": 7.47776210524219e-06,
+          "velocity_error": 1.974842946683708e-05,
+          "steps": 186,
+          "rejected": 1,
+          "failed": 0,
+          "native_r": 7.457166089523592e-06
+        },
+        {
+          "case": "face_v10_mu4",
+          "r": 7.47776210524219e-06,
+          "velocity_error": 1.974842946683708e-05,
+          "steps": 186,
+          "rejected": 1,
+          "failed": 0,
+          "native_r": 7.457166089523592e-06
+        },
+        {
+          "case": "face_v10_mu4",
+          "r": 7.47776210524219e-06,
+          "velocity_error": 1.974842946683708e-05,
+          "steps": 186,
+          "rejected": 1,
+          "failed": 0,
+          "native_r": 7.457166089523592e-06
+        },
+        {
+          "case": "face_v10_mu4",
+          "r": 7.47776210524219e-06,
+          "velocity_error": 1.974842946683708e-05,
+          "steps": 186,
+          "rejected": 1,
+          "failed": 0,
+          "native_r": 7.457166089523592e-06
+        },
+        {
+          "case": "face_v10_mu4",
+          "r": 7.47776210524219e-06,
+          "velocity_error": 1.974842946683708e-05,
+          "steps": 186,
+          "rejected": 1,
+          "failed": 0,
+          "native_r": 7.457166089523592e-06
+        }
+      ]
+    },
+    "extrapolated": {
+      "case": "face_v10_mu4",
+      "mode": "extrapolated",
+      "cap": 32,
+      "contacts": 4,
+      "correction_period": 1,
+      "median_ms": 1.2604800462722778,
+      "worst_residual": 8.784434557778184e-06,
+      "worst_velocity_error_mps": 1.2944488119615016e-05,
+      "max_accepted_steps": 32,
+      "passed": true,
+      "time_ms": [
+        1.2532800436019897,
+        1.2653440237045288,
+        1.2601920366287231,
+        1.2604800462722778,
+        1.2607680559158325,
+        1.2619199752807617,
+        1.2450560331344604
+      ],
+      "scores": [
+        {
+          "case": "face_v10_mu4",
+          "r": 8.784434557778184e-06,
+          "velocity_error": 1.2944488119615016e-05,
+          "steps": 32,
+          "rejected": 0,
+          "failed": 0,
+          "native_r": 8.811528860284827e-06
+        },
+        {
+          "case": "face_v10_mu4",
+          "r": 8.784434557778184e-06,
+          "velocity_error": 1.2944488119615016e-05,
+          "steps": 32,
+          "rejected": 0,
+          "failed": 0,
+          "native_r": 8.811528860284827e-06
+        },
+        {
+          "case": "face_v10_mu4",
+          "r": 8.784434557778184e-06,
+          "velocity_error": 1.2944488119615016e-05,
+          "steps": 32,
+          "rejected": 0,
+          "failed": 0,
+          "native_r": 8.811528860284827e-06
+        },
+        {
+          "case": "face_v10_mu4",
+          "r": 8.784434557778184e-06,
+          "velocity_error": 1.2944488119615016e-05,
+          "steps": 32,
+          "rejected": 0,
+          "failed": 0,
+          "native_r": 8.811528860284827e-06
+        },
+        {
+          "case": "face_v10_mu4",
+          "r": 8.784434557778184e-06,
+          "velocity_error": 1.2944488119615016e-05,
+          "steps": 32,
+          "rejected": 0,
+          "failed": 0,
+          "native_r": 8.811528860284827e-06
+        },
+        {
+          "case": "face_v10_mu4",
+          "r": 8.784434557778184e-06,
+          "velocity_error": 1.2944488119615016e-05,
+          "steps": 32,
+          "rejected": 0,
+          "failed": 0,
+          "native_r": 8.811528860284827e-06
+        },
+        {
+          "case": "face_v10_mu4",
+          "r": 8.784434557778184e-06,
+          "velocity_error": 1.2944488119615016e-05,
+          "steps": 32,
+          "rejected": 0,
+          "failed": 0,
+          "native_r": 8.811528860284827e-06
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+\begin{placedtable}
+\caption{PGS pass counts, median APGD step counts, and median GPU times at the first tested budget that meets both limits on all 15 runs. The limits are \(10^{-6}\,\mathrm{N\,s}\) for the Coulomb residual and \(2\times10^{-5}\) m/s for the body-velocity error.}
+\label{tab:contacts}
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Stack & PGS passes & PGS [ms] & APGD steps & APGD [ms]\\
+\midrule
+Five boxes & 161 & 1.62 & 95 & 8.39\\
+Ten boxes & 641 & 6.32 & 164 & 21.92\\
+\bottomrule
+\end{tabular}
+\end{placedtable}
+
+\paragraph{Results.} APGD reaches the target in fewer updates, and PGS reaches it in less GPU time (Table~\ref{tab:contacts}). With more passes, the PGS residual rises again (Fig.~\ref{fig:contact}). PGS adds each contact's momentum change to a running total. Roundoff can make this total drift away from the momentum implied by the current impulses. Recomputing the total from the impulses every 16 passes reduced the late residual by more than \(100\times\) on both stacks.

@@ -1,0 +1,36 @@
+{
+  "newton_revision": "7a23bbd01dfd4da6874b9f9c450d854e7d7437f4",
+  "script_sha256": "90dceaf6a213472f2295116c05569978aa2293579bc0548a052d1c39f0eb4aaa",
+  "gpu_start": "3168, /usr/lib/x86_64-linux-gnu/dcv/dcvagent, 550 MiB",
+  "gpu_end": "3168, /usr/lib/x86_64-linux-gnu/dcv/dcvagent, 550 MiB\n504241, /home/horde/Documents/DVI/.venv-dvi/bin/python, 334 MiB",
+  "target": 1e-05,
+  "caps": [
+    16,
+    32,
+    64,
+    128,
+    256,
+    512,
+    1024,
+    4096
+  ],
+  "seed": 27019,
+  "cases": {
+    "stack5_unwelded": {
+      "contacts": 20,
+      "mu": 0.75,
+      "source": "b03e2464af34bcef2a540b643ec60e309b9ea222cb65df6c30db8b703599f32e"
+    },
+    "stack10_unwelded": {
+      "contacts": 40,
+      "mu": 0.75,
+      "source": "3f2984448fffe314143893330a41226778409bdc6b24b1939709791c203c4055"
+    },
+    "face_v10_mu4": {
+      "contacts": 4,
+      "mu": 4.0,
+      "source": "rigid 1 kg box, four corners"
+    }
+  },
+  "gpu": "NVIDIA RTX PRO 4500 Blackwell Server Edition, 595.80"
+}
